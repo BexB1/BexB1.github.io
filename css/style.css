@@ -1,0 +1,29 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jumbotron {
+  position: absolute;
+  max-width: 960px;
+  margin: 0 auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  line-height: 60px;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+
+h1 {
+  font-size: 55px;
+  letter-spacing: 5px;
+}
+
+span {
+  float: right;
+  color: #737373;
+}
