@@ -1,7 +1,7 @@
 var express        = require('express');
 var app            = express();
 var environment    = app.get('env');
-const PORT          = process.env.PORT || 3000;
+var PORT          = process.env.PORT || 3000;
 var router         = require('./config/routes');
 var pug            = require('pug');
 
@@ -9,6 +9,7 @@ var pug            = require('pug');
 app.use('/', router);
 app.set('view engine', 'pug');
 
+app.set('port', (process.env.PORT || 3000));
 app.set('views', __dirname +'/views');
 
 app.use(express.static(__dirname + '/public'));
