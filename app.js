@@ -11,10 +11,6 @@ app.set('view engine', 'pug');
 
 app.set('views', __dirname +'/views');
 
-app.get('/', function (req, res) {
-  pug.render('index');
-});
-
 app.use(express.static(__dirname + '/public'));
 
 
