@@ -18,12 +18,34 @@ body {
   letter-spacing: 3px;
 }
 
+.icons {
+  position: absolute;
+  width: 100%;
+  clear: both;
+  bottom: -100px;
+/*  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);*/
+}
+
 h1 {
-  font-size: 55px;
-  letter-spacing: 5px;
+  font-size: 45px;
+  letter-spacing: 4px;
+}
+
+h2 {
+  margin: 0;
+  line-height: 35px;
 }
 
 span {
+  margin-top: -10px;
+  line-height: 20px;
+  font-size: 30px;
   float: right;
   color: #737373;
+}
+
+i:hover {
+  color: #c9c9c9;
 }
