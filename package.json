@@ -2,7 +2,7 @@
   "name": "becky-bolton-portfolio",
   "version": "1.0.0",
   "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "lite": "lite-server",
     "postinstall": "typings install",
     "tsc": "tsc",
@@ -23,12 +23,13 @@
     "reflect-metadata": "^0.1.3",
     "rxjs": "5.0.0-beta.12",
     "systemjs": "0.19.27",
+    "typescript": "^2.0.3",
     "zone.js": "^0.6.23"
   },
   "devDependencies": {
     "concurrently": "^2.2.0",
     "lite-server": "^2.2.2",
     "typescript": "^2.0.2",
-    "typings":"^1.3.2"
+    "typings": "^1.3.2"
   }
 }
