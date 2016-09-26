@@ -1,0 +1,16 @@
+<div class="project" *ngFor='let project of projects'>
+  <img src="{{ project.pic }}" height="100px">
+
+  <div>
+    {{ project.name }}
+
+    <p>
+      {{ project.blurb }}
+    </p>
+
+    <p class="tech">
+      {{ project.tech }}
+    </p>
+  </div>
+</div>
+

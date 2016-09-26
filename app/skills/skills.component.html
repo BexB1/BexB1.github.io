@@ -1,0 +1,30 @@
+<h2>Front End</h2>
+
+<br />
+
+<div class="skills" *ngFor='let skill of skills'>
+
+  <img src="{{ skill.pic }}" height="50px" alt="{{ skill.name }}" title="{{ skill.name }}" />
+</div>
+
+<br />
+
+<h2>Back End</h2>
+
+<br />
+
+<div class="skills" *ngFor='let beSkill of beSkills'>
+
+  <img src="{{ beSkill.pic }}" height="50px" alt="{{ beSkill.name }}" title="{{ beSkill.name }}" />
+</div>
+
+<br />
+
+<h2>Other</h2>
+
+<br />
+
+<div class="skills" *ngFor='let otherSkill of otherSkills'>
+
+  <img src="{{ otherSkill.pic }}" height="50px" alt="{{ otherSkill.name }}" title="{{ otherSkill.name }}" />
+</div>

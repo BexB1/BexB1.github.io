@@ -1,0 +1,117 @@
+body {
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  text-align: center;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  color: #404040;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  margin-top: 50px;
+}
+
+header img {
+  float: left;
+  border-radius: 15;
+}
+
+header h1, h2 {
+  display: inline-block;
+}
+
+header h2 {
+  font-size: 25px;
+  margin: 0px;
+}
+
+
+header nav a {
+  text-decoration: none;
+  color: red;
+}
+
+.jumbotron {
+  position: absolute;
+  max-width: 960px;
+  min-height: 700px;
+  margin: 0 auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  letter-spacing: 3px;
+  -webkit-box-shadow: 10px 10px 57px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 10px 10px 57px 0px rgba(0,0,0,0.5);
+  box-shadow: 10px 10px 57px 0px rgba(0,0,0,0.5);
+}
+
+.blurb {
+  float: right;
+}
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.home {
+  display: inline-block;
+}
+
+.home img {
+  border-radius: 360px;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 95px;
+  letter-spacing: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 2px 2px 20px #ff0000;
+}
+
+h2 {
+  margin: 0;
+  line-height: 35px;
+}
+
+span {
+  margin-top: -10px;
+  line-height: 20px;
+  font-size: 30px;
+  float: right;
+  color: #737373;
+}
+
+i {
+  color: red;
+}
+
+i:hover {
+  color: #404040;
+}
+
+.skills {
+  display: inline-block;
+  margin: 10px;
+}
+
+.project {
+  display: block;
+  width: 90%;
+  margin: 10px;
+}
+
+.tech {
+  font-size: 12px;
+  margin: 1px;
+}
