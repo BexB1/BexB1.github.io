@@ -27,15 +27,17 @@ import {
 
         <a routerLink="skills">skills</a> //
 
-        <a href="https://github.com/BexB1">
+        <a href="../pics/Becky_Bolton_CV.pdf">CV</a>
+
+        <a href="https://github.com/BexB1" target="_blank">
           <i class="fa fa-github-square"></i>
         </a>
 
-        <a href="https://uk.linkedin.com/in/bexbolton">
+        <a href="https://uk.linkedin.com/in/bexbolton" target="_blank">
           <i class="fa fa-linkedin-square"></i>
         </a>
 
-        <a href="https://twitter.com/IamBexB">
+        <a href="https://twitter.com/IamBexB" target="_blank">
           <i class="fa fa-twitter-square"></i>
         </a>
 
