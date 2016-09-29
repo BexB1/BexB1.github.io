@@ -13,41 +13,45 @@ import {
       <h1>{{title}}</h1>
     </div>
 
-      <div class="header-bottom">
+    <br />
+
+    <h2>Web Developer</h2>
 
       <nav>
 
-      <h2>Web Developer</h2>
-
-        <a routerLink="/">home</a> //
+        <a routerLink="/">home</a> 
 
         <a routerLink="projects">
         projects
-        </a> //
+        </a> 
 
-        <a routerLink="skills">skills</a> //
+        <a routerLink="skills">skills</a> 
 
-        <a href="../pics/Becky_Bolton_CV.pdf">CV</a>
+        <a href="../pics/Becky_Bolton_CV.pdf">CV</a> 
 
-        <a href="https://github.com/BexB1" target="_blank">
-          <i class="fa fa-github-square"></i>
-        </a>
 
-        <a href="https://uk.linkedin.com/in/bexbolton" target="_blank">
-          <i class="fa fa-linkedin-square"></i>
-        </a>
+       </nav>
 
-        <a href="https://twitter.com/IamBexB" target="_blank">
-          <i class="fa fa-twitter-square"></i>
-        </a>
+        <span class="buttons">
 
-        <a href="mailto:bexbolton.webdev@gmail.com">
-          <i class="fa fa-envelope-o"></i>
-        </a>
+          <a href="https://github.com/BexB1" target="_blank">
+            <i class="fa fa-github-square"></i>
+          </a>
 
-      </nav>
+          <a href="https://uk.linkedin.com/in/bexbolton" target="_blank">
+            <i class="fa fa-linkedin-square"></i>
+          </a>
 
-      </div>
+          <a href="https://twitter.com/IamBexB" target="_blank">
+            <i class="fa fa-twitter-square"></i>
+          </a>
+
+          <a href="mailto:bexbolton.webdev@gmail.com">
+            <i class="fa fa-envelope-o"></i>
+          </a>
+
+        </span>
+
     </div>
 
 
