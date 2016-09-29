@@ -12,53 +12,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
-  color: #404040;
+  color: #535353;
 }
 
 a {
   text-decoration: none;
-  color: #404040;
-}
-
-header {
-  margin-top: 2em;
-  display: flex;
-}
-
-header nav a {
-  text-decoration: none;
-  color: red;
-}
-
-h1 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 5em;
-  letter-spacing: 0.1em;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: white;
-  text-shadow: 2px 2px 20px #ff0000;
-}
-
-h2 {
-  margin: 0;
-  line-height: 2em;
-}
-
-span {
-  margin-top: -0.8px;
-  line-height: 1em;
-  font-size: 1.5em;
-  float: right;
-  color: #737373;
-}
-
-i {
-  color: red;
-}
-
-i:hover {
-  color: #404040;
+  color: #535353;
 }
 
 .jumbotron {
@@ -77,6 +36,63 @@ i:hover {
   box-shadow: 10px 10px 57px 0px rgba(0,0,0,0.5);
 }
 
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.header nav a {
+  text-decoration: none;
+  color: red;
+  font-size: 1.2em;
+}
+
+.header nav a:hover {
+  color: #535353;
+}
+
+.header-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 8em;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 100%;
+  color: white;
+  text-shadow: 2px 2px 20px #ff0000;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 0.8em;
+}
+
+span {
+  margin-top: -0.8px;
+  line-height: 1em;
+  font-size: 1.5em;
+  float: right;
+  color: #737373;
+}
+
+hr {
+  max-width: 75%;
+}
+
+/* HOME PAGE */
+
 .home {
   display: inline-block;
 }
@@ -85,12 +101,17 @@ i:hover {
   border-radius: 360px;
 }
 
+.blurb {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
 /* PROJECTS PAGE */
 
 .projects-box {
   margin: 0 auto;
   display: -webkit-flex;
-  display: flex;
+  display: flex;;
   justify-content: space-around;
 }
 

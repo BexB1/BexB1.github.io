@@ -7,40 +7,46 @@ import {
 @Component({
   selector: 'app',
   template: `
-    <header>
+    <div class="header">
+
+    <div class="header-title">
       <h1>{{title}}</h1>
+    </div>
+
+      <div class="header-bottom">
+
+      <nav>
 
       <h2>Web Developer</h2>
 
-      <a href="https://github.com/BexB1">
-        <i class="fa fa-github-square fa-2x"></i>
-      </a>
-
-      <a href="https://uk.linkedin.com/in/bexbolton">
-        <i class="fa fa-linkedin-square fa-2x"></i>
-      </a>
-
-      <a href="https://twitter.com/IamBexB">
-        <i class="fa fa-twitter-square fa-2x"></i>
-      </a>
-
-      <a href="mailto:bexbolton.webdev@gmail.com">
-        <i class="fa fa-envelope-o fa-2x"></i>
-      </a>
-
-      <nav>
-        <a routerLink="/">Home</a> //
+        <a routerLink="/">home</a> //
 
         <a routerLink="projects">
-        Projects
+        projects
         </a> //
 
-        <a routerLink="skills">Skills</a> //
-        
-        <a routerLink="/">Hey Bex, whatcha doin'?</a> //
+        <a routerLink="skills">skills</a> //
+
+        <a href="https://github.com/BexB1">
+          <i class="fa fa-github-square"></i>
+        </a>
+
+        <a href="https://uk.linkedin.com/in/bexbolton">
+          <i class="fa fa-linkedin-square"></i>
+        </a>
+
+        <a href="https://twitter.com/IamBexB">
+          <i class="fa fa-twitter-square"></i>
+        </a>
+
+        <a href="mailto:bexbolton.webdev@gmail.com">
+          <i class="fa fa-envelope-o"></i>
+        </a>
 
       </nav>
-    </header>
+
+      </div>
+    </div>
 
 
     <hr />
