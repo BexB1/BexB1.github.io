@@ -21,17 +21,17 @@ a {
 }
 
 .loader {
-    border: 16px solid #f3f3f3;
-    border-top: 16px solid red;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    left: 45%;
-    top: 45%;
-    transform: translate(-50%,-50%);
-    -webkit-animation: spin 1.5s linear infinite;
-    animation: spin 1.5s linear infinite;
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid red;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  transform: translate(-50%,-50%);
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
 }
 
 @-webkit-keyframes spin {
@@ -45,15 +45,22 @@ a {
 }
 
 .jumbotron {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.content {
   position: absolute;
   border-radius: 0.8em;
-  width: 90%;
+  width: 85%;
   min-height: 90vh;
   padding: 1%;
-  margin: 0 auto;
+  margin-top: 0 auto;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
+  right: 50%;
+  transform: translate(-50%,2%);
   letter-spacing: 0.17em;
   -webkit-box-shadow: 10px 10px 57px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 10px 10px 57px 0px rgba(0,0,0,0.5);
@@ -63,6 +70,8 @@ a {
 /* HEADER */
 
 .header {
+  height: auto;
+  width: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -89,6 +98,7 @@ a {
 h1 {
   font-family: 'Oswald', sans-serif;
   font-size: 8em;
+  margin-top: 0.5em;
   letter-spacing: 0.1em;
   font-weight: 700;
   text-transform: uppercase;
@@ -224,15 +234,17 @@ hr {
     width: 100%;
     display: block;
   }
+}
 
 @media (max-width: 400px) {
 
-  .project {
-    align-content: space-between;
-    max-width: 75%;
-    margin: 0.5em auto;
-    font-size: 0.8em;
+  h1 {
+    font-size: 2.5em;
   }
-}
+
+  .project {
+    width: 99%;
+  }
+
 
 }
