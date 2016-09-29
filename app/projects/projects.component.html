@@ -1,16 +1,27 @@
-<div class="project" *ngFor='let project of projects'>
-  <img src="{{ project.pic }}" height="100px">
+<div class="projects-box">
 
-  <div>
-    {{ project.name }}
+  <div class="project" *ngFor='let project of projects'>
 
-    <p>
-      {{ project.blurb }}
-    </p>
+    <a href="{{ project.url }}" target='_blank'>
 
-    <p class="tech">
-      {{ project.tech }}
-    </p>
+      <div class="project-pic">
+        <img src="{{ project.pic }}">
+      </div>
+
+      <div class="project-name">
+        {{ project.name }}
+      </div>
+
+      <div class="project-blurb">
+        {{ project.blurb }}
+      </div>
+        
+      <div class="tech">
+        {{ project.tech }}
+      </div>
+
+    </a>
+
   </div>
-</div>
 
+</div>
