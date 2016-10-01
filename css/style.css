@@ -12,12 +12,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: white;
-  color: #535353;
+  color: #595959;
 }
 
 a {
   text-decoration: none;
-  color: #535353;
+  color: #595959;
 }
 
 .loader {
@@ -91,7 +91,7 @@ a {
 }
 
 .header nav a:hover {
-  color: #535353;
+  color: #595959;
 }
 
 h1 {
@@ -126,7 +126,7 @@ hr {
 .footer {
   width: 100%;
   margin: 0em auto;
-  color: #9f9f9f;
+  color: #767676;
   font-size: 0.8em;
   bottom: 1em;
 }
