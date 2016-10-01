@@ -27,7 +27,7 @@ import {
 
         <a routerLink="skills">skills</a> 
 
-        <a href="../pics/Becky_Bolton_CV.pdf">CV</a> 
+        <a href="../pics/Becky_Bolton_CV.pdf" target="_blank">CV</a> 
 
 
        </nav>
